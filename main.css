@@ -106,3 +106,18 @@ ul li {
     color: #3DA35D;
 }
 
+.content {
+    margin: 10px 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.game {
+display: flex;
+flex: 20%;
+}
+img {
+    margin: auto;
+}
