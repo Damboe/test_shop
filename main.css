@@ -1,8 +1,28 @@
 body {
-    background: rgb(122,213,109);
-    background: radial-gradient(circle, rgba(122,213,109,1) 0%, rgba(67,224,173,1) 50%, rgba(37,172,199,1) 100%);
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(/image/grey-forest2.jpg);
+    background-size: cover;
+    margin: 0;
 }
 .navbar{
  font-size: 25px;
 
 }
+
+.logo {
+    width: 200px;
+    border-radius: 60%;
+    float: left;
+}
+.container {
+    height: 100vh;
+    width: 100%;
+
+}
+
+nav {
+    display: flex;
+    
+}
+
