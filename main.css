@@ -1,8 +1,43 @@
-body {
-    background: rgb(122,213,109);
-    background: radial-gradient(circle, rgba(122,213,109,1) 0%, rgba(67,224,173,1) 50%, rgba(37,172,199,1) 100%);
+@font-face {
+    font-family: Public Pixel;
+    src: url("fonts/PublicPixel-z84yD.ttf");
 }
-.navbar{
- font-size: 25px;
 
+body {
+    background: rgb(122, 213, 109);
+    background: radial-gradient(circle, rgba(122, 213, 109, 1) 0%, rgba(67, 224, 173, 1) 50%, rgba(37, 172, 199, 1) 100%);
+}
+
+.navbar {
+    background: rgb(144, 175, 140);
+    background: linear-gradient(90deg, rgba(144, 175, 140, 1) 0%, rgba(66, 100, 107, 1) 100%);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: "Public Pixel";
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    overflow: hidden;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+ul li {
+    float: left;
+}
+
+li a:hover {
+    background: white;
 }
