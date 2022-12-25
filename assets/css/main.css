@@ -115,6 +115,7 @@ ul li {
 
 
 .tiles {
+    margin-top: 20px;
     font-size: 0;
     font-family: "Public Pixel";
     text-align: center;
@@ -216,6 +217,9 @@ ul li {
     box-shadow: -12px 8px 16px 0px rgba(0,0,0,0.75);
 }
 /*login page*/
+.box {
+    font-family: "Public Pixel";
+}
 .box h1{
     color: white;
     text-transform: uppercase;
@@ -234,6 +238,7 @@ ul li {
     color: white;
     border-radius: 24px;
     transition: 0.25s;
+    font-family: "Public Pixel";
 }
 
 .box input[type = "text"]:focus,.box input[type = "password"]:focus{
@@ -243,4 +248,15 @@ ul li {
 
 .box input[type = "submit"]{
 
+}
+.welcome {
+    font-family: "Public Pixel";
+    color: #555555;
+    font-size: 30px;
+    text-align: center;
+}
+.welcome img {
+    display: block;
+    margin: auto;
+     
 }
